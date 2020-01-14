@@ -6,7 +6,7 @@ Using easily-obtained, relatively inexpensive hardware, this RF traffic can be h
 
 Other systems, including non-Honeywell systems, also use this protocol, or a similar/older protocol called the residential network protocol - YMMV.
 
-This wiki's purpose is to document the data structures and protocols of RAMSES II. It is a work-in-progress and contributions are encouraged.
+[This wiki's](https://github.com/Evsdd/The-Evohome-Project/wiki) purpose is to document the data structures and protocols of RAMSES II. It is a work-in-progress and contributions are encouraged.
 
 ## Basic Packet Structure
 This is a sequence of RAMSES II packets sent over the RF network:
