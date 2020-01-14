@@ -27,7 +27,7 @@ aaa XX bbb DEVICE_ID DEVICE_ID DEVICE_ID CODE nnn PAYLOAD.....
 
 The three main elements of any packet are:
  - the 3 **device ids** (e.g. `04:056057`, `01:145038`) for controllers, TRV, DHW relays, etc.
- - the packet **type** (`I`, `W`, `RQ`, `RP`) and **code** (e.g. `30C9`, `10A0`, and `0008`)
+ - the packet **verb** (`I`, `W`, `RQ`, `RP`) and **code** (e.g. `30C9`, `10A0`, and `0008`)
  - the **payload** (e.g. `0008310107FD0...`), which can be decoded further
 
 Detailed descriptions of the [packet structure](https://github.com/Evsdd/The-Evohome-Project/wiki/Packet-structure) and each command code is available within this wiki.
