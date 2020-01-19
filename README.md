@@ -4,7 +4,7 @@ Honeywell Evohome CH/DHW systems utilize a 868 Mhz RF protocol called RAMSES II.
 
 Using easily-obtained, relatively inexpensive hardware, this RF traffic can be harvested for useful information, and there is also means to inject commands into the network.
 
-Other systems, including non-Honeywell systems, also use this protocol, or a similar/older protocol called the residential network protocol - YMMV.
+Other systems, including non-Honeywell systems, also use this protocol, or a similar/older protocols such as Enviracom, or the residential network protocol - YMMV.
 
 [This wiki's](https://github.com/Evsdd/The-Evohome-Project/wiki) purpose is to document the data structures and protocols of RAMSES II. It is a work-in-progress and contributions are encouraged.
 
