@@ -8,7 +8,7 @@ Other systems, including non-Honeywell systems, also use this protocol, or a sim
 
 [This wiki's](https://github.com/Evsdd/The-Evohome-Project/wiki) purpose is to document the data structures and protocols of RAMSES II. It is a work-in-progress and contributions are encouraged.
 
-## Decoding RAMSES-II (evohome RF) Packets
+## Decoding evohome (RAMSES-II) RF traffic
 This is a sequence of RAMSES II packets sent over the RF network:
 ```
 045  I --- 01:145038 --:------ 01:145038 30C9 018 0008310107FD02076503077D04075C050758
