@@ -20,17 +20,35 @@ This is a sequence of RAMSES II packets sent over the RF network:
 045  I --- 34:064023 --:------ 34:064023 3120 007 0070B0000000FF
 ```
 
-The basic packet structure a number of fields separated by spaces, with a variable-length payload at the end:
-```
-aaa XX bbb DEVICE_ID DEVICE_ID DEVICE_ID CODE nnn PAYLOAD.....
-```
-
-The three main elements of any packet are:
- - the 3 **device ids** (e.g. `04:056057`, `01:145038`) for controllers, TRV, DHW relays, etc.
- - the packet **verb** (`I`, `W`, `RQ`, `RP`) and **code** (e.g. `30C9`, `10A0`, and `0008`)
- - the **payload** (e.g. `0008310107FD0...`), which can be decoded further
-
 Detailed descriptions of the [packet structure](https://github.com/Evsdd/The-Evohome-Project/wiki/Packet-structure) and each command code is available within this wiki.
+
+By a combination of eavesdropping traffic, and probing the system via well-constructed packets, much can be learnt about the system - some of which is not exposed via the vendor's UI/API.  For example, consider this zone (using [this](https://github.com/zxdavb/evohome_rf) tool):
+
+```json
+    "04": {
+        "actuators": ["04:189082", "04:189083"],
+        "configuration": {
+            "local_override": true,
+            "multi_room_mode": false,
+            "openwindow_function": true
+        },
+        "heat_demand": 0.43,
+        "name": "Main Hall",
+        "sensor": "22:012345",
+        "setpoint_capabilities": {
+            "max_temp": 24.5,
+            "min_temp": 5.5
+        },
+        "setpoint_status": {
+            "setpoint": 21.5,
+            "mode": "FollowSchedule",
+            "until": null
+        },
+        "temperature": 19.28,
+        "window_open": false,
+        "zone_type": "Radiator Valve"
+    }
+```
 
 ## Communication Hardware
 
