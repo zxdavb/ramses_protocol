@@ -22,7 +22,7 @@ This is a sequence of RAMSES II packets sent over the RF network:
 
 Detailed descriptions of the [packet structure](https://github.com/Evsdd/The-Evohome-Project/wiki/Packet-structure) and each command code is available within this wiki.
 
-By a combination of _eavesdropping_ traffic, and _probing_ the system via well-constructed packets, much can be learnt about the system - some of which is not exposed via the vendor's UI/API.  For example, consider this zone (using [this](https://github.com/zxdavb/evohome_rf) tool):
+By a combination of _eavesdropping_ traffic, and _probing_ the system via carefullt-constructed command packets, much can be learnt about the system - some of which is not exposed via the vendor's UI/API.  For example, consider this zone (using [this](https://github.com/zxdavb/evohome_rf) tool):
 
 ```json
     "04": {
