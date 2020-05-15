@@ -50,6 +50,8 @@ By a combination of _eavesdropping_ traffic, and _probing_ the system via carefu
     }
 ```
 
+A similar level of detail can be obtained about the devices that make up an evohome system (e.g. battery state).
+
 ## Communication Hardware
 
 The 'standard' device for interfacing with Evohome RF networks is the Honeywell HGI80. 
