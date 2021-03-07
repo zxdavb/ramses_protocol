@@ -56,7 +56,7 @@ A similar level of detail can be obtained about the devices that make up an evoh
 
 The 'standard' device for interfacing with Evohome RF networks is the Honeywell HGI80. 
 
-These will be the most compatible option, but are relatively expensive and can be difficult to obtain.  However, they cannot be made to emulate other Evohome devices, such as a TRV.
+These will be the most compatible option, but are relatively expensive and can be difficult to obtain.  Additionally, they cannot be made to emulate other Evohome devices, such as a TRV.
 
 Alternatively, there are several 'hobbyist' USB devices which may be used, including:
 
@@ -66,7 +66,7 @@ Alternatively, there are several 'hobbyist' USB devices which may be used, inclu
 
   - Seeedstudio RFBee (firmware to be published)
 
-These devices may be less compatible than a HGI80, but are easily available and very likely cheaper. They can be used to emulate Evohome devices (even, theoretically, an Evohome controller). 
+These devices may be less compatible than a HGI80, but are easily available and very likely cheaper. They can be used to emulate Evohome devices (even, theoretically, an Evohome controller).  Please see: https://github.com/ghoti57/evofw3 for the recommended firmware.
 
 ### Acknowledgements
 
