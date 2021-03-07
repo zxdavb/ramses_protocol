@@ -1,6 +1,6 @@
 # How to Communicate with Evohome
 
-Honeywell Evohome CH/DHW systems utilize a 868 Mhz RF protocol called RAMSES II. 
+Many HVAC systems utilize a 868 Mhz RF protocol from Honeywell called RAMSES II. This includes Evohome, Sundial, Chronotherm, Hometronics, and products from Itho.
 
 Using easily-obtained, relatively inexpensive hardware, this (unecrypted) RF traffic can be harvested for useful information, and there is also means to inject commands into the network.
 
